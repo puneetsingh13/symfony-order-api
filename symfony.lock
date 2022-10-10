@@ -1,4 +1,10 @@
 {
+    "doctrine/annotations": {
+        "version": "1.13",
+        "recipe": {
+            "version": "1.0"
+        }
+    },
     "symfony/console": {
         "version": "5.4",
         "recipe": {
@@ -41,6 +47,9 @@
             "src/Controller/.gitignore",
             "src/Kernel.php"
         ]
+    },
+    "symfony/maker-bundle": {
+        "version": "v1.43.0"
     },
     "symfony/routing": {
         "version": "5.4",

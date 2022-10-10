@@ -1,3 +1,4 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+order_api_show:
+    path:       /api/order/{order_id}
+    controller: App\Controller\OrderApiController::show
+    methods:    GET|HEAD
